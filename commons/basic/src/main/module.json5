@@ -1,0 +1,27 @@
+{
+  "module": {
+    "name": "basic",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "BasicAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "BasicAbility",
+        "srcEntry": "./ets/basicability/BasicAbility.ts",
+        "description": "$string:BasicAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:BasicAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

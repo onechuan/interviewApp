@@ -1,0 +1,27 @@
+{
+  "module": {
+    "name": "home",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "HomeAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "HomeAbility",
+        "srcEntry": "./ets/homeability/HomeAbility.ts",
+        "description": "$string:HomeAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:HomeAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}
